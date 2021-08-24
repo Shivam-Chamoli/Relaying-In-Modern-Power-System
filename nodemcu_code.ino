@@ -10,11 +10,11 @@ SoftwareSerial s(D6,D5);
 #define theftPinR D2
 #define theftPinY D3
 #define theftPinB D4
+//Your firebase host addr.
+#define FIREBASE_HOST "***************************"
 
-#define FIREBASE_HOST "https://relaying-e6b69-default-rtdb.firebaseio.com/"
-
-
-#define FIREBASE_AUTH "Qo0WYGSYx053WaMCNih2lbOt8XUUMmDwA5khwAKy"
+//Your firebase authkey
+#define FIREBASE_AUTH "***************************"
 
 //Define FirebaseESP8266 data object
 FirebaseData fbdo;
@@ -33,9 +33,7 @@ unsigned long power_send_time;
 
 float data1, data2, data3;
 
-// Set these to run example.
-//#define FIREBASE_HOST "https://test-b29f1-default-rtdb.firebaseio.com/"
-//#define FIREBASE_AUTH "RS7Dy2cwmSlfOWZHw6x7a6ASVJwAzre6kQZ9grwm"
+
 #define WIFI_SSID "ded"
 #define WIFI_PASSWORD "123456789"
  
